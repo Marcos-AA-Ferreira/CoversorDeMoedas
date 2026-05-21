@@ -13,7 +13,7 @@ public class buscaTabelaDeConversao {
 
     //Acessa a Api pelos dados obtidos
     public opcoesDeConversao buscaOpcoes(String moedaParaConversao) {
-        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/5ba5214cd20272eddbd503bd/latest/" + moedaParaConversao);
+        URI endereco = URI.create("https://v6.exchangerate-api.com/v6/********************/latest/" + moedaParaConversao);
 
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
